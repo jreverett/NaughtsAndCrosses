@@ -37,8 +37,31 @@ init(void)
 	glBindVertexArray(VAOs[Triangles]);
 
 	GLfloat  vertices[NumVertices][2] = {
-		{ -0.90f, -0.90f }, {  0.85f, -0.90f }, { -0.90f,  0.85f },  // Triangle 1
-		{  0.90f, -0.85f }, {  0.90f,  0.90f }, { -0.85f,  0.90f }   // Triangle 2
+		// SQUARE 1 - Top Left
+		// Triangle 1
+		// Triangle 2
+
+		// SQUARE 2 - Top Right
+		// Triangle 1
+		// Triangle 2
+
+		// SQUARE 3 - Centre
+		// Triangle 1
+		// Triangle 2
+
+		// SQUARE  - Bottom Left
+		// Triangle 1
+		{ -1.0f, -1.0f }, // bottom-left
+		{ -0.5f, -1.0f }, // bottom-right
+		{ -1.0f, -0.5f }, // top-left
+		// Triangle 2
+		{ -0.5f, -1.0f }, // bottom-right
+		{ -0.5f, -0.5f }, // top-right
+		{ -1.0f, -0.5f }  // top-left
+
+		// SQUARE 1 - Bottom Right
+		// Triangle 1
+		// Triangle 2
 	};
 
 	glGenBuffers(NumBuffers, Buffers);
