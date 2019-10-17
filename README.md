@@ -1,2 +1,2 @@
-# SampleCode
-Sample-Code for SOFT356
+# Naughts And Crosses
+Simple Naughts And Crosses board using OpenGL
